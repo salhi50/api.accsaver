@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "target": "ESNext",
+    "noFallthroughCasesInSwitch": true,
+    "lib": ["ESNext"],
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "strictBindCallApply": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "api"]
+}

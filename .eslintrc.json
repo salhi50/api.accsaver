@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "root": true,
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": false
+  },
+  "extends": [
+    "airbnb-base",
+    "prettier"
+  ],
+  "rules": {
+    "func-names": "off",
+    "consistent-return": "off",
+    "prefer-const": "off",
+    "no-underscore-dangle": "off",
+    "one-var": "off"
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.ts"],
+      "extends": [
+        "airbnb-typescript/base",
+        "prettier"
+      ],
+      "parserOptions": {
+        "project": "tsconfig.json"
+      }
+    }
+  ]
+}
